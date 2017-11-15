@@ -1,0 +1,241 @@
+@media (min-width: 999px) {
+	
+
+	.banner {
+		padding: 290px 0px;
+		height: 600px;
+		margin-bottom: 30px;
+	}
+	
+}
+
+* {
+z-index: 1;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+p, h1, h2, h3, ul, li, a {
+	font-family: 'Merriweather', serif;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	background-color: white;
+	background-attachment: fixed;
+	background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/headboard_portrait3.jpg");
+}
+
+nav {
+
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  max-height: 200px;
+}
+
+nav h3 {
+	  float: left;
+  clear: right;
+}
+
+nav h3 a {
+  font-size: 30px;
+  
+}
+
+nav ul {
+	margin-top: 13px;
+  float: right;
+  }
+
+nav ul li {
+  padding: 5px;
+  display: inline;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .nav a {
+	  color: white;
+  }
+  
+  .banner {
+	
+	  
+	  
+  }
+
+  .banner h1 {
+	  font-weight: 200;
+	  color: white;
+	  font-size: 65px;
+	  letter-spacing: 0px;
+	  
+  }
+  
+  h1.h1_bottom {
+	  position: relative;
+	  bottom: 20px;
+	margin-bottom: 10px;
+  }
+  
+  .banner button {
+	  min-width: 100px;
+	  min-height: 35px;
+	  text-transform: uppercase;
+	  border-radius: 1px;
+	  padding: 5px;
+	  background-color: rgba(100,159,188,0.0);
+	  border: 2px solid white;
+	  -webkit-transition: border-radius 3s, height 7s, background-color 2s;
+  }
+  
+  .banner button:hover {
+	  display: inline-block;
+	  height: 100px;
+	  color: white;
+	  background-color: black;
+	  border: 2px solid black;
+	  border-radius: 100%;
+	  
+	  
+  }
+  
+  .banner button a {
+	  color: white;
+  }
+  
+  
+  .story {
+	  background-color: white;
+	  padding: 20px;
+	  
+	  
+  }
+  
+  .story h2 {
+	  font-size: 50px;
+	  text-align: left;
+	  max-width: 75%;
+	  margin: auto;  
+	  
+  }
+  
+  .story p {
+	  
+	  font-size: 20px;
+	  text-align: left;
+	  margin: 20px auto auto auto;
+	  max-width: 75%;
+  }
+  
+  .story a {
+	  display: inline-block;
+	  width: 25%;
+	  margin: 20px auto auto auto;
+  }
+  
+  .two_img {
+	max-height: 1000px;
+	background-color: white;
+	width: 100%;
+	}
+	
+	.img1_div {
+		display: inline-block;
+		max-height: 500px;
+		max-width: 500px;
+	}
+	
+	
+	#img1 {
+
+		max-height: 100%;
+		max-width: 100%;	
+	}
+	
+	.img2_div {
+		display: inline-block;
+		margin: 0;
+		max-height: 500px;
+		max-width: 500px;
+		min-width: 100px;
+		min-width: 100px;
+	}
+	
+	#img2 {
+		max-height: 500px;
+		max-width: 100%;	
+	}
+	
+	/*
+	.two_img img {
+		float: left;
+		max-height: 500px;
+		max-width: 450px;
+		min-width: 100px;
+		min-height: 100px;
+		
+	}
+	*/
+  
+  .three_img {
+	  
+	  background-color: white;
+	  width: 100%;
+	  display: inline-block;
+  }
+  
+  .three_img h2 {
+	margin: 50px auto;
+	
+  }
+  
+  .three_img img{
+	  margin: 15px;
+	  max-height: 500px;
+	  max-width: 500px;
+	  min-height: 125px;
+	  min-width: 125px;
+  }
+  
+  footer {
+	  color: gray;
+	  background-color:white;
+	  height: 100px;
+  }
+	
+/* Needs Re-org. Putting all classes below this comment for now ################# */
+
+
+.bold {
+	font-weight: 700;
+}
+
+.light {
+	font-weight: 300;
+}
+
+ .row {
+	 text-align: center;
+	 padding: 150px;
+	   }
+  
+  /*psuedos beloooow
+  
+  
+
+		
