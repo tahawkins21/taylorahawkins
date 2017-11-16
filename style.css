@@ -10,6 +10,20 @@
 
 }
 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	  
+	  p, h1, p, h1, h2, h3, ul, li, a {
+		font-size: 100%;	  
+	  }
+	  
+
+}
+
+
 * {
 z-index: 1;
 margin: 0;
