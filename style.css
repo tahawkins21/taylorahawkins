@@ -10,17 +10,50 @@
 
 }
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	  
-	  p, h1, p, h1, h2, h3, ul, li, a {
-		font-size: 100%;	  
-	  }
-	  
-
+@media (max-width: 998px) {
+	.container {
+		width: 100%;
+	}
+	.nav {
+		font-size: 30px;
+		position: fixed;
+		width: 100%;
+		margin: 3px 0px 3px 0px;
+		padding: 70px;
+		display: block;
+		background-color: black;
+		height: 25%;
+	}
+	.banner {
+		display: none;
+	}
+	
+	
+	
+	section.three_img img {
+		max-height: 100%;
+		max-width: 100%;
+	}
+	
+	div.row a {
+		font-size: 100px;
+		width: 100%;
+		
+	}
+	
+	.light img {
+		height: 100%;
+		width: 100%:
+	}
+	
+	.story p{
+		font-size: 40px !important;
+	}
+	
+	div.row {
+		margin-top: 200px;
+		padding: 10px; 
+	}
 }
 
 
