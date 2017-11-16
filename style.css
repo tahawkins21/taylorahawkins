@@ -33,7 +33,7 @@ body {
   text-align: center;
   height: 100%;
   width: 100%;
-  background-image: url("../img/headboard_portrait3.jpg");
+  background-image: url("headboard_portrait3.jpg");
 }
 
 nav {
@@ -100,7 +100,7 @@ nav ul li {
 	  padding: 5px;
 	  background-color: rgba(100,159,188,0.0);
 	  border: 2px solid white;
-	  -webkit-transition: border-radius 3s, height 7s, background-color 2s;
+	  -webkit-transition: border-radius 3s, height 2s, background-color 2s;
   }
   
   .banner button:hover {
